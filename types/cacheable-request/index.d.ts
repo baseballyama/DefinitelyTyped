@@ -12,7 +12,7 @@ import { URL } from 'url';
 import { EventEmitter } from 'events';
 import { Store } from 'keyv';
 import { Options as CacheSemanticsOptions } from 'http-cache-semantics';
-import ResponseLike = require('responselike');
+import ResponseLike from 'responselike';
 
 export = CacheableRequest;
 
